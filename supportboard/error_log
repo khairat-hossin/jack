@@ -1,0 +1,30 @@
+[18-Apr-2024 22:56:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gps7777_crmuser'@'localhost' (using password: YES) in /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php:110
+Stack trace:
+#0 /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php(110): mysqli->__construct('localhost', 'gps7777_crmuser', '6;H;K*QIogC&', 'gps7777_crm', '3306')
+#1 /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php(174): sb_db_connect()
+#2 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(657): sb_db_escape('settings')
+#3 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(605): sb_get_external_setting('settings', Array)
+#4 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(627): sb_get_settings()
+#5 /home/gps7777/crm.globalpresence.support/supportboard/admin.php(73): sb_get_setting('admin-icon', 'media/icon.png')
+#6 {main}
+  thrown in /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php on line 110
+[20-Apr-2024 15:58:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gps7777_crmuser'@'localhost' (using password: YES) in /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php:110
+Stack trace:
+#0 /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php(110): mysqli->__construct('localhost', 'gps7777_crmuser', '6;H;K*QIogC&', 'gps7777_crm', '3306')
+#1 /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php(174): sb_db_connect()
+#2 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(657): sb_db_escape('settings')
+#3 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(605): sb_get_external_setting('settings', Array)
+#4 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(627): sb_get_settings()
+#5 /home/gps7777/crm.globalpresence.support/supportboard/admin.php(73): sb_get_setting('admin-icon', 'media/icon.png')
+#6 {main}
+  thrown in /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php on line 110
+[27-Apr-2024 12:50:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gps7777_crmuser'@'localhost' (using password: YES) in /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php:110
+Stack trace:
+#0 /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php(110): mysqli->__construct('localhost', 'gps7777_crmuser', '6;H;K*QIogC&', 'gps7777_crm', '3306')
+#1 /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php(174): sb_db_connect()
+#2 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(657): sb_db_escape('settings')
+#3 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(605): sb_get_external_setting('settings', Array)
+#4 /home/gps7777/crm.globalpresence.support/supportboard/include/functions_settings.php(627): sb_get_settings()
+#5 /home/gps7777/crm.globalpresence.support/supportboard/admin.php(73): sb_get_setting('admin-icon', 'media/icon.png')
+#6 {main}
+  thrown in /home/gps7777/crm.globalpresence.support/supportboard/include/functions.php on line 110

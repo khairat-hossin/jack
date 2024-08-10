@@ -1,0 +1,22 @@
+.taskfilter-width150 {
+	width: 150%; 
+}
+
+.taskfilter-graycolor {
+	color:#989898; 
+	border:1px solid #989898;
+}
+
+.taskfilter-bluecolor {
+	color:#03A9F4;
+	border:1px solid #03A9F4;
+}
+
+.taskfilter-greencolor {
+	color:#84c529; 
+	border:1px solid #84c529;
+}
+
+.taskfilter-redcolor {
+	color:#ff2d42;
+}

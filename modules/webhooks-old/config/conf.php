@@ -1,0 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+$config['webhooks_product_item_id'] = "38350010";
+$config["webhooks_product_token"] = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJwdXJjaGFzZV9jb2RlIjoiMWFmNzE4MWItMTU4NC00NTJjLWI4ODEtYzY2NDE1Mjc5Nzk3IiwiaXRlbV9pZCI6MzgzNTAwMTAsImJ1eWVyIjoicHJvZHVjdGlvbjE2IiwicHVyY2hhc2VfY291bnQiOjEsImFjdGl2YXRlZF9kb21haW4iOiJodHRwczovL2NybS5nbG9iYWxwcmVzZW5jZS5zdXBwb3J0LyIsImlwIjoiMzkuMzMuMTc0LjAiLCJwdXJjaGFzZV90aW1lIjoiMjAyMi0xMS0wOVQwMzowMDoyNisxMTowMCIsImNoZWNrX2ludGVydmFsIjo2MDQ4MDB9.LM2qv3oFy1QXbIdkDYYkbo7POvMJCu-R-Sb9rQ1l11yn1-9-JlxampaVaMUWiVaeHnhrgwe2CYGydrGn42q-0w";

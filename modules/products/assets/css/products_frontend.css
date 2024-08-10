@@ -1,0 +1,46 @@
+span {
+    font-size:15px;
+}
+.title {
+    font-size:18px;
+}
+.thumbnail {
+    margin-bottom: 38px;
+    min-height:520px;
+}
+.img1 {
+    width:100%;
+    height: 250px;
+    max-height:250px;
+    min-height:250px;
+    object-fit: contain;
+    background-color: white;
+    text-align: center; vertical-align: middle;
+}
+.shadow {
+    padding: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+.products-pricing:hover {
+    opacity: 0.9;
+    transition: 0.2s;
+}
+.description {
+    height: 60px;overflow: hidden;
+}
+.total_taxes.text-warning {
+    font-size: 60%;
+}
+.product-row.without-variations .row.input_data {
+    margin-top: 59px;
+}
+.variations {
+    margin-bottom: 15px;
+}
+.variations .dropdown.bootstrap-select {
+    max-width: 100%;
+}
+.select_cat:after {
+    display: none !important;
+}

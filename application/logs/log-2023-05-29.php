@@ -1,0 +1,10 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-05-29 10:12:02 --> Severity: Warning --> fopen(/tmp/pcrm-cron-lock): failed to open stream: Permission denied /home/gps7777/crm.globalpresence.support/application/models/Cron_model.php 27
+ERROR - 2023-05-29 10:12:04 --> Severity: Notice --> Undefined index: subscription /home/gps7777/crm.globalpresence.support/application/libraries/gateways/Stripe_gateway_account2.php 215
+ERROR - 2023-05-29 10:12:04 --> Severity: Notice --> Trying to access array offset on value of type null /home/gps7777/crm.globalpresence.support/application/libraries/gateways/Stripe_gateway_account2.php 220
+ERROR - 2023-05-29 10:12:04 --> Severity: Notice --> Trying to access array offset on value of type null /home/gps7777/crm.globalpresence.support/application/libraries/gateways/Stripe_gateway_account2.php 223
+ERROR - 2023-05-29 10:12:04 --> Severity: error --> Exception: You passed an empty string for 'card[number]'. We assume empty values are an attempt to unset a parameter; however 'card[number]' cannot be unset. You should remove 'card[number]' from your request or supply a non-empty value. /home/gps7777/crm.globalpresence.support/application/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php 38
+ERROR - 2023-05-29 10:12:04 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/gps7777/crm.globalpresence.support/system/core/Exceptions.php:271) /home/gps7777/crm.globalpresence.support/system/core/Common.php 573
+ERROR - 2023-05-29 10:12:16 --> Query error: Commands out of sync; you can't run this command now - Invalid query: INSERT INTO `tblsessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES ('668be4c317a9937dd5422754c0449f7dab846877', '198.136.50.98', 1685369536, '__ci_last_regenerate|i:1685369522;')
+ERROR - 2023-05-29 10:12:16 --> Query error: Commands out of sync; you can't run this command now - Invalid query: SELECT RELEASE_LOCK('0ba77b72f5cff3b623a193d47aa0d3a6') AS ci_session_lock
